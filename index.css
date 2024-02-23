@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background: url(https://images.unsplash.com/photo-1682687220945-922198770e60?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#parent{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    overflow: hidden;
+    
+}
+#child{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+}
+
+  
+#test{
+    
+    background-color: aquamarine;
+    height: 200px;
+    
+}
+h1{
+    font-family: Alegreya-SemiBoldItalic;
+    text-transform: uppercase;
+    
+}
+#pb{
+    height: 500px;
+    width: 500px;
+    background-color: palevioletred;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid purple;
+    border-radius: 300px;
+    padding-top: 155px;
+    padding-left: 20px;
+    text-align: center;
+    margin-left: 550px;
+}
+#cars{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    
+}
+
+#car1{
+    height: 140px;
+    width: 80px;
+    background-color: aqua;
+}
+#car2{
+    height: 140px;
+    width: 100px;
+    background-color: rgb(79, 47, 154);
+    position: absolute;
+    top: 22px;
+    left: 30px;
+    
+
+}
+#car3{
+    height: 140px;
+    width: 120px;
+    background-color: rgb(203, 118, 173);
+}
+
+
+a{
+    display: block;
+}
+#box{
+    height: 500px;
+    width: 500px;
+    background-color: bisque;
+    display: flex;
+    justify-content:end;
+    align-items: end;
+    
+}
+#one{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(231, 130, 7);
+}
+#two{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(11, 202, 11);
+}
+#three{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(148, 25, 229);
+}
+p{
+    position: relative;
+    width: fit-content;
+
+}
+p::after{
+      content:'';
+      background-color: red;
+      position: absolute;
+      height: 10px;
+      width: 100%;
+      left: 0;
+}
+p:hover{
+    background-color: pink;
+}
+
